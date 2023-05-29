@@ -224,5 +224,5 @@ app.post("/cleaning", (req, res) => {
 });
 
 app.listen(4000, () => {
-  console.log("Server is up and running on port 4000");
+  console.log("Server isrunning on port 4000");
 });
