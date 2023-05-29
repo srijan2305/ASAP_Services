@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>schedule</title>
+    <link rel="stylesheet" href="scheduling.css" />
+    <!-- logo link(navbar) -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!--google fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="home1.html" class="logo">
+          <i class="fas fa-lightbulb"></i> ASAP Services</a
+        >
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <!-- <li><a href="">SERVICES</a></li> -->
+            <li><a href="">CONTACT</a></li>
+            <!-- <li><a href="">SIGN IN</a></li>  -->
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <!--navbar end -->
+    </section>
+
+    <center>
+      <h1>Schedule Your Services<br /></h1>
+    </center>
+    <form action="/plumbing" method="post">
+      <label for="date">Date:</label>
+      <input type="date" id="date" name="date" /><br /><br />
+
+      <label for="time">Time:</label>
+      <input type="time" id="time" name="time" /><br /><br />
+
+      <label for="address">Address:</label>
+      <input type="text" id="address" name="address" />
+      <!-- <input type="text" id="address" name="address" /><br /><br /> -->
+
+      <input type="submit" value="Submit" />
+
+      <!-- <button type="submit" id="sub">Book Free consultation</button> -->
+    </form>
+
+    <!-- <script type="text/javascript" src="script2.js"></script> -->
+  </body>
+</html>

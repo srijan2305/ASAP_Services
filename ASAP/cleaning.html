@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ASAP_UPDATED</title>
+    <link rel="stylesheet" href="painting.css" />
+    <!-- logo link(navbar)-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!--google fonts link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!--navbar start  -->
+    <section class="header">
+      <nav>
+        <a href="home1.html" class="logo"
+          ><i class="fas fa-lightbulb"></i> ASAP Services</a
+        >
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <!-- <li><a href="#campus">SERVICES</a></li> -->
+            <li><a href="#">CONTACT</a></li>
+            <!-- <li><a href="login.html">SIGN IN</a></li> -->
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <!--navbar end  -->
+
+      <div class="text-box">
+        <h1>Cleaning Services</h1>
+
+        <a href="sccleaning.html" class="hero-btn">Full Home Services</a>
+        <a href="sccleaning.html" class="hero-btn">BedRoom Services</a>
+        <a href="sccleaning.html" class="hero-btn">Kitchen Services</a>
+        <a href="sccleaning.html" class="hero-btn">Living Area Services</a>
+        <a href="sccleaning.html" class="hero-btn">Other Services</a>
+      </div>
+    </section>
+
+    <section class="footer" id="footer">
+      <h4>About Us</h4>
+      <p>
+        ASAP services is a technology platform offering a vareity of services at
+        home.<br />
+        Customers use our platform to book services such as
+        cleaning,plumbing,electrical and painting.<br />
+        These services are delivered in the comfort of their home and at a time
+        of their choosing.<br />
+        We promise our customers a high quality, standardised and reliable
+        service experience.
+      </p>
+      <div class="icons">
+        <h4>You can also contact us @</h4>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </section>
+
+    <!-- Javascript for toggle Menu -->
+    <script>
+      let navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
